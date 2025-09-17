@@ -141,7 +141,7 @@ Add the following displays:
 
 ## Repository Contents
 ```
-├── Arduino_Code.ino      # Arduino code for publishing encoder ticks
+├── encoder_to_ros.ino      # Arduino code for publishing encoder ticks
 ├── scan_sample.png       # Example Lidar scan image
 ├── README.md             # Documentation (this file)
 ```
