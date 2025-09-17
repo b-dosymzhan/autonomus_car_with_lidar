@@ -3,7 +3,7 @@
 
 This project demonstrates how to interface **wheel encoders** and an **LDS-02 Lidar** with **ROS Noetic** for a differential drive robot.  
 It publishes wheel encoder data from an Arduino and scan data from the Lidar, which can then be used for odometry and navigation tasks.
-
+![Robot](car.png)
 > **Note:** This setup provides encoder and scan data for use in ROS. Mapping and full SLAM require additional configuration.
 
 ---
@@ -35,7 +35,7 @@ The system publishes the following ROS topics:
 - **Laser Scan (`/scan`)**  
   - The LDS-02 Lidar publishes 360° distance measurements.
   - This allows the robot to detect obstacles and understand its surroundings.
-
+![scan](scan_sample.png)
 Together, these data sources allow ROS to track where the robot is and navigate intelligently.
 
 ---
