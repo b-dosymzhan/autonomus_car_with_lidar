@@ -35,7 +35,7 @@ The system publishes the following ROS topics:
 - **Laser Scan (`/scan`)**  
   - The LDS-02 Lidar publishes 360° distance measurements.
   - This allows the robot to detect obstacles and understand its surroundings.
-![scan](scan_sample.png)
+![scan](scan_sample.jpg)
 Together, these data sources allow ROS to track where the robot is and navigate intelligently.
 
 ---
